@@ -15,6 +15,12 @@ public class Lesson {
     @Column(nullable = false, length = 10000)
     private String Content;
 
+    @Column(nullable = true)
+    private Float duration;
+
+    @Column(nullable = true, length = 100)
+    private String additionalResources;
+
     protected Lesson() {}
 
     public Lesson(String title, String content) {
