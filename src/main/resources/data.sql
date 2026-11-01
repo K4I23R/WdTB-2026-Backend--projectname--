@@ -6,7 +6,9 @@ insert into user_account (email, display_name, role, created_at) values
     ('kuba@student.merito.pl',  'Kuba',  'USER',    current_timestamp),
     ('firma@example.com',       'Firma', 'PARTNER', current_timestamp),
     ('admin@example.com',       'Admin', 'ADMIN',   current_timestamp),
-    ('maksymilian.pakos@student.merito.pl', 'Pakos', 'ADMIN', current_timestamp);
+    ('maksymilian.pakos@student.merito.pl', 'Pakos', 'ADMIN', current_timestamp),
+    ('patryk.paryska@student.merito.pl', 'Patryk', 'ADMIN', current_timestamp),
+    ('michał.snella@student.merito.pl', 'Michał', 'ADMIN', current_timestamp);
 
 -- LAB 01: Wasze konta (zmieńcie na swoje dane, rola USER)
 -- insert into user_account (email, display_name, role, created_at) values
