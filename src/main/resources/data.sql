@@ -36,8 +36,8 @@ insert into lessons (title, content, duration, additional_resources) values
     ('Bezpieczeństwo na wodzie', 'Poznaj wyposażenie ratunkowe, zasady wzywania pomocy i postępowanie w sytuacjach awaryjnych.', 55.0, 'https://www.gov.pl/web/mswia/bezpieczny-wypoczynek-nad-woda');
 
 insert into questions (title, content, answerA, answerB, answerC, answerD, correct_answer) values
-    ('Znak kardynalny', 'Co oznacza pojedynczy czerwony znak kardynalny w kształcie walca?', 'Bezpieczna woda', 'Lewą stronę szlaku', 'Prawą stronę szlaku', 'Miejsce kotwiczenia', 2),
-    ('Zwrot przez sztag', 'Co należy zrobić przed rozpoczęciem zwrotu przez sztag?', 'Zwiększyć prędkość silnika', 'Sprawdzić otoczenie i uprzedzić załogę', 'Opuścić kotwicę', 'Zgasić wszystkie światła', 1),
-    ('Kamizelka ratunkowa', 'Kiedy należy założyć kamizelkę ratunkową?', 'Tylko podczas postoju', 'W razie potrzeby, zgodnie z zasadami bezpieczeństwa', 'Tylko po zmroku', 'Nigdy na spokojnej wodzie', 1),
-    ('Manewr łodzią motorową', 'Jak najbezpieczniej ograniczyć prędkość łodzi motorowej przed podejściem do kei?', 'Zwolnić odpowiednio wcześnie', 'Wyłączyć sterowanie', 'Przyspieszyć', 'Wykonać ostry skręt przy kei', 0),
-    ('Pierwszeństwo na wodzie', 'Co powinien zrobić sternik, gdy nie ma pewności co do zamiarów innej jednostki?', 'Zmniejszyć prędkość i zachować bezpieczny odstęp', 'Przyspieszyć', 'Wykonać przypadkowy zwrot', 'Opuścić załogę do wody', 0);
+    ('Znak kardynalny', 'Co oznacza pojedynczy czerwony znak kardynalny w kształcie walca?', 'Bezpieczna woda', 'Lewą stronę szlaku', 'Prawą stronę szlaku', 'Miejsce kotwiczenia', 'A'),
+    ('Zwrot przez sztag', 'Co należy zrobić przed rozpoczęciem zwrotu przez sztag?', 'Zwiększyć prędkość silnika', 'Sprawdzić otoczenie i uprzedzić załogę', 'Opuścić kotwicę', 'Zgasić wszystkie światła', 'B'),
+    ('Kamizelka ratunkowa', 'Kiedy należy założyć kamizelkę ratunkową?', 'Tylko podczas postoju', 'W razie potrzeby, zgodnie z zasadami bezpieczeństwa', 'Tylko po zmroku', 'Nigdy na spokojnej wodzie', 'B'),
+    ('Manewr łodzią motorową', 'Jak najbezpieczniej ograniczyć prędkość łodzi motorowej przed podejściem do kei?', 'Zwolnić odpowiednio wcześnie', 'Wyłączyć sterowanie', 'Przyspieszyć', 'Wykonać ostry skręt przy kei', 'A'),
+    ('Pierwszeństwo na wodzie', 'Co powinien zrobić sternik, gdy nie ma pewności co do zamiarów innej jednostki?', 'Zmniejszyć prędkość i zachować bezpieczny odstęp', 'Przyspieszyć', 'Wykonać przypadkowy zwrot', 'Opuścić załogę do wody', 'A');

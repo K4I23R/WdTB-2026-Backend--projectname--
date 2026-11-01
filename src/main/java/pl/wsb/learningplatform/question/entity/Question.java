@@ -26,6 +26,7 @@ public class Question {
     @Column(nullable = false, length = 100)
     private String answerD;
 
+    @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 1)
     private CorrectAnswer correctAnswer;
 

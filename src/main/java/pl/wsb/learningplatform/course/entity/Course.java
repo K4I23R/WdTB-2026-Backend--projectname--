@@ -14,6 +14,7 @@ public class Course {
     @Column(nullable = false, length = 500)
     private String description;
 
+    @Embedded
     @Column(nullable = false)
     private CoursePrize coursePrize;
 

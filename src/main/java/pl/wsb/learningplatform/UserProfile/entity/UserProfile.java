@@ -18,6 +18,7 @@ public class UserProfile {
     @Column(nullable = false, unique = true, length = 100)
     private String email;
 
+    @Embedded
     @Column(nullable = false)
     private UserAdress address;
 
@@ -56,5 +57,9 @@ public class UserProfile {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public UserAdress getAddress() {
+        return address;
     }
 }
